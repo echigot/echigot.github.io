@@ -1,0 +1,4 @@
+baseURL = 'https://echigot.github.io/'
+languageCode = 'fr-FR'
+title = 'Estelle Chigot'
+theme = 'cactus'
