@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://echigot.github.io/sitemap.xml
