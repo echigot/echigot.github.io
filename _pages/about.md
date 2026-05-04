@@ -3,9 +3,9 @@ layout: about
 title: about
 permalink: /
 subtitle: >
-  PhD Candidate in Computer Vision ·
+  PhD Candidate in Computer Vision at
   <a href="https://www.isae-supaero.fr" target="_blank">ISAE-SUPAERO</a> &amp;
-  <a href="https://www.airbus.com" target="_blank">Airbus</a> (CIFRE)
+  <a href="https://www.airbus.com" target="_blank">Airbus</a>
 
 profile:
   align: right
@@ -23,8 +23,8 @@ latest_posts:
   enabled: false
 ---
 
-I am an industrial PhD candidate in computer vision at **ISAE-SUPAERO** in collaboration with **Airbus** (CIFRE, 2023–2026), supervised by [Thomas Oberlin](https://pagespro.isae-supaero.fr/thomas-oberlin/), [Dennis G. Wilson](https://www.isae-supaero.fr), [Meriem Ghrib](https://www.airbus.com), and [Manon Huguenin](https://www.airbus.com).
+I am an industrial PhD candidate in computer vision at **ISAE-SUPAERO** in collaboration with **Airbus**, supervised by [Thomas Oberlin](https://pagespro.isae-supaero.fr/thomas-oberlin/) (ISAE-Supaero), [Dennis G. Wilson](https://d9w.github.io/) (ISAE-Supaero), Meriem Ghrib (Airbus), and Manon Huguenin (Airbus).
 
-My research focuses on **synthetic-to-real domain adaptation** for robust object recognition, applied to runway detection under adverse weather conditions. I develop methods based on **diffusion models** for style transfer and **evolutionary algorithms** for pipeline optimisation.
+My research focuses on **synthetic-to-real domain adaptation** for robust object recognition, applied to runway detection under adverse weather conditions. I develop methods based on **diffusion models** for style transfer and **evolutionary algorithms** for style transfer pipeline optimisation.
 
 **Contact:** estelle(dot)chigot(at)gmail(dot)com

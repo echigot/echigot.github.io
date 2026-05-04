@@ -4,10 +4,10 @@
 @article{chigot2025cviu,
   title        = {Style Transfer with Diffusion Models for Synthetic-to-Real Domain Adaptation},
   author       = {Chigot, Estelle and Wilson, Dennis G. and Ghrib, Meriem and Oberlin, Thomas},
-  journal      = {Computer Vision and Image Understanding},
+  journal      = {Computer Vision and Image Understanding (CVIU)},
   year         = {2025},
   html         = {https://www.sciencedirect.com/science/article/pii/S1077314225001687},
-  abstract     = {We propose a diffusion-based style transfer method for synthetic-to-real domain adaptation using segmentation maps, with a focus on adverse weather conditions. The approach bridges the domain gap between synthetic training data and real-world imagery for robust runway detection in degraded conditions.},
+  abstract     = {Semantic segmentation models trained on synthetic data often perform poorly on real-world images due to domain gaps, particularly in adverse conditions where labeled data is scarce. Yet, recent foundation models enable to generate realistic images without any training. This paper proposes to leverage such diffusion models to improve the performance of vision models when learned on synthetic data. We introduce two novel techniques for semantically consistent style transfer using diffusion models: Class-wise Adaptive Instance Normalization and Cross-Attention (CACTI) and its extension with selective attention Filtering (CACTIF). CACTI applies statistical normalization selectively based on semantic classes, while CACTIF further filters cross-attention maps based on feature similarity, preventing artifacts in regions with weak cross-attention correspondences. Our methods transfer style characteristics while preserving semantic boundaries and structural coherence, unlike approaches that apply global transformations or generate content without constraints. Experiments using GTA5 as source and Cityscapes/ACDC as target domains show that our approach produces higher quality images with lower FID scores and better content preservation. Our work demonstrates that class-aware diffusion-based style transfer effectively bridges the synthetic-to-real domain gap even with minimal target domain data, advancing robust perception systems for challenging real-world applications. The source code is available on [github](https://github.com/echigot/cactif).},
   selected     = {true},
   bibtex_show  = {true}
 }
@@ -15,10 +15,10 @@
 @inproceedings{chigot2026evostar,
   title        = {Multi-Objective Optimization for Synthetic-to-Real Style Transfer},
   author       = {Chigot, Estelle and Oberlin, Thomas and Huguenin, Manon and Wilson, Dennis G.},
-  booktitle    = {International Conference on the Applications of Evolutionary Computation (EvoStar)},
+  booktitle    = {International Conference on the Applications of Evolutionary Computation (Part of EvoStar)},
   year         = {2026},
   html         = {https://arxiv.org/abs/2602.03625v1},
-  abstract     = {We propose an evolutionary algorithm-based optimization framework for style transfer pipelines applied to synthetic-to-real domain adaptation. The multi-objective formulation allows jointly optimizing visual quality and task performance for runway detection.},
+  abstract     = {Semantic segmentation networks require large amounts of pixel-level annotated data, which are costly to obtain for real-world images. Computer graphics engines can generate synthetic images alongside their ground-truth annotations. However, models trained on such images can perform poorly on real images due to the domain gap between real and synthetic images. Style transfer methods can reduce this difference by applying a realistic style to synthetic images. Choosing effective data transformations and their sequence is difficult due to the large combinatorial search space of style transfer operators. Using multi-objective genetic algorithms, we optimize pipelines to balance structural coherence and style similarity to target domains. We study the use of paired-image metrics on individual image samples during evolution to enable rapid pipeline evaluation, as opposed to standard distributional metrics that require the generation of many images. After optimization, we evaluate the resulting Pareto front using distributional metrics and segmentation performance. We apply this approach to standard datasets in synthetic-to-real domain adaptation: from the video game GTA5 to real image datasets Cityscapes and ACDC, focusing on adverse conditions. Results demonstrate that evolutionary algorithms can propose diverse augmentation pipelines adapted to different objectives. The contribution of this work is the formulation of style transfer as a sequencing problem suitable for evolutionary optimization and the study of efficient metrics that enable feasible search in this space. The source code is available on [github](https://github.com/echigot/MOOSS).},
   selected     = {true},
   bibtex_show  = {true}
 }
@@ -29,7 +29,7 @@
   booktitle    = {International Conference on Computer Analysis of Images and Patterns (CAIP)},
   year         = {2025},
   html         = {https://link.springer.com/chapter/10.1007/978-3-032-04968-1_25},
-  abstract     = {We evaluate the impact of simulated data and domain adaptation methods for Airbus runway detection models. Our study benchmarks synthetic-to-real style transfer approaches and quantifies their contribution to model robustness.},
+  abstract     = {Deep vision models are now mature enough to be integrated in industrial and possibly critical applications such as autonomous navigation. Yet, data collection and labeling to train such models requires too much efforts and costs for a single company or product. This drawback is more significant in critical applications, where training data must include all possible conditions including rare scenarios. In this perspective, generating synthetic images is an appealing solution, since it allows a cheap yet reliable covering of all the conditions and environments, if the impact of the synthetic-to-real distribution shift is mitigated. In this article, we consider the case of runway detection that is a critical part in autonomous landing systems developed by aircraft manufacturers. We propose an image generation approach based on a commercial flight simulator that complements a few annotated real images. By controlling the image generation and the integration of real and synthetic data, we show that standard object detection models can achieve accurate prediction. We also evaluate their robustness with respect to adverse conditions, in our case nighttime images, that were not represented in the real data, and show the interest of using a customized domain adaptation strategy.},
   selected     = {true},
   bibtex_show  = {true}
 }
@@ -39,7 +39,18 @@
   author       = {Chigot, Estelle and Barrat, Sol{\`e}ne and Huguenin, Manon and Wilson, Dennis G. and Oberlin, Thomas},
   journal      = {Under review},
   year         = {2026},
-  abstract     = {We apply and benchmark synthetic-to-real style transfer models for runway images under adverse weather conditions, with the goal of enhancing the robustness of operational runway detection models.},
+  abstract     = {Vision-based machine learning applications rely on large datasets in order to achieve good performance across a wide range of situations. In the context of avionics systems, simulators are of great interest due to the high cost of data collection flights and the difficulty of covering adverse weather conditions or dangerous scenarios. Simulators can automatically generate millions of synthetic images along with the exact labels and geometry of relevant scene objects. However, training machine learning models solely on synthetic data leads to poor performance in real scenarios, a problem referred to as the sim-to-real gap. We tackle this problem using a style transfer approach. By transferring realistic styles to simulated scenes, we aim to improve runway detection results on real images. In this paper, we study the impact of synthetic data and several style transfer methods on an industrial runway detection dataset, covering daytime, nighttime, fog, and snow conditions. We show that integrating synthetic data is highly effective to improve detection performance on held-out test sets, and leads to significant improvements in adverse conditions where real training data are absent.},
   selected     = {true},
+  bibtex_show  = {true}
+}
+
+@inproceedings{chigot2022gecco,
+author = {Chigot, Estelle and Wilson, Dennis G.},
+title = {Coevolution of neural networks for agents and environments},
+year = {2022},
+html = {https://doi.org/10.1145/3520304.3534047},
+abstract = {Evolutionary strategies have recently shown great results in the field of policy search. Compared to some classical artificial neural networks used in reinforcement learning, evolutionary strategies generate populations of agents which are evaluated on a specific task. The algorithm detailed here demonstrates how artificial neural networks can be evolved in a process of neuroevolution and used as agents in the 2D-game Zelda, producing relevant behaviors. Moreover, to increase the diversity and quantity of available maps, this paper shows how it is possible to generate environments using evolutionary strategies and neuroevolution, as well as neural cellular automata. Finally, to evolve populations of environments and agents cohesively, a coevolution algorithm was developed. Results demonstrate the potential of coevolution in the field of videogames by creating a wide range of diverse environments, and by creating agent strategies to solve these levels. However, these results also highlight the complexity of continuously generating novelty as agents and maps tend to converge quickly on similar patterns.},
+booktitle = {Proceedings of the Genetic and Evolutionary Computation Conference Companion},
+  selected     = {false},
   bibtex_show  = {true}
 }
