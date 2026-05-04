@@ -18,6 +18,9 @@ abstract: >
 featured: true
 url_pdf: ''
 url_code: ''
+links:
+  - name: Paper
+    url: 'https://www.sciencedirect.com/science/article/pii/S1077314225001687'
 url_dataset: ''
 doi: ''
 tags:

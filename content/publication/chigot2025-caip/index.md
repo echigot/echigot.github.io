@@ -18,6 +18,9 @@ abstract: >
 featured: false
 url_pdf: ''
 url_code: ''
+links:
+  - name: Paper
+    url: 'https://link.springer.com/chapter/10.1007/978-3-032-04968-1_25'
 url_dataset: ''
 doi: ''
 tags:

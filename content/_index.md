@@ -56,12 +56,14 @@ sections:
       spacing:
         padding: ['2rem', 0, '2rem', 0]
 
-  - block: contact-info
+  - block: markdown
     id: contact
     content:
       title: Contact
-      email: 'estelle.chigot@gmail.com'
-      autolink: true
+      text: |
+        **Email :** estelle(dot)chigot(at)gmail(dot)com
+
+        [GitHub](https://github.com/echigot) · [LinkedIn](https://www.linkedin.com/in/estelle-chigot) · [Google Scholar](https://scholar.google.com/citations?user=P6vMCm5Qb7UC)
     design:
       spacing:
         padding: ['2rem', 0, '2rem', 0]

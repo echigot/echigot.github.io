@@ -17,6 +17,9 @@ abstract: >
 featured: true
 url_pdf: ''
 url_code: ''
+links:
+  - name: Paper
+    url: 'https://arxiv.org/abs/2602.03625v1'
 url_dataset: ''
 doi: ''
 tags:

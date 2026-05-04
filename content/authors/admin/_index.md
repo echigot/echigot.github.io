@@ -44,7 +44,7 @@ social:
     link: 'https://www.linkedin.com/in/estelle-chigot'
   - icon: google-scholar
     icon_pack: ai
-    link: 'https://scholar.google.com/citations?user=Estelle+Chigot'
+    link: 'https://scholar.google.com/citations?user=P6vMCm5Qb7UC'
 
 email: 'estelle.chigot@gmail.com'
 highlight_name: true
