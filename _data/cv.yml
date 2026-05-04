@@ -139,26 +139,21 @@ cv:
 
     Skills:
       - name: Languages
-        level: ""
         icon: fa-solid fa-language
         keywords: "French (Native), English (Proficient), German (Beginner)"
 
-      - name: Programming
-        level: ""
+      - name: Programming Languages
         icon: fa-solid fa-code
         keywords: "Python, Java, C++, C#"
 
       - name: Deep Learning
-        level: ""
         icon: fa-solid fa-brain
         keywords: "PyTorch, TensorFlow"
 
       - name: Tools
-        level: ""
         icon: fa-solid fa-wrench
         keywords: "Linux, Docker, Slurm, Bash, Git, Unity"
 
       - name: Interests
-        level: ""
         icon: fa-solid fa-star
         keywords: "Dance, Video games, Baking, Reading"
