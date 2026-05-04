@@ -7,14 +7,12 @@ nav: true
 nav_order: 4
 ---
 
-As part of my PhD at **ISAE-SUPAERO**, I taught the following courses to Master students:
-
 | Course | Level |
 |:---|:---|
-| Computer Vision — Generative Models | Master |
-| Machine Learning | Master |
-| Object-Oriented Programming | Master |
-| Evolutionary Optimisation | Master |
-| Linux & Python | Master |
+| Computer Vision — Image Generation | MSc 2 |
+| Machine Learning | MSc 2 |
+| Evolutionary Computation | MSc 1 |
+| Bash & Python | MSc 2 |
+| Object-Oriented Programming | BSc 3 |
 
 I also supervised **two research interns** (2024, 2025).

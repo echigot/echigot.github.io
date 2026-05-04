@@ -13,7 +13,7 @@ profile:
   image_circular: false
   more_info:
 
-selected_papers: true
+selected_papers: false
 social: true
 
 announcements:
@@ -27,4 +27,4 @@ I am an industrial PhD candidate in computer vision at **ISAE-SUPAERO** in colla
 
 My research focuses on **synthetic-to-real domain adaptation** for robust object recognition, applied to runway detection under adverse weather conditions. I develop methods based on **diffusion models** for style transfer and **evolutionary algorithms** for style transfer pipeline optimisation.
 
-**Contact:** estelle(dot)chigot(at)gmail(dot)com
+**Contact:** estelle (dot) chigot (at) gmail (dot) com
