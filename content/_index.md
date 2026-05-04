@@ -41,7 +41,17 @@ sections:
     content:
       title: Enseignement
       text: |
-        *À remplir : vos cours, formations, encadrements.*
+        Dans le cadre de ma thèse à l'**ISAE-SUPAERO**, j'ai enseigné les matières suivantes à des étudiants de Master :
+
+        | Matière | Niveau |
+        |---|---|
+        | Vision par ordinateur — modèles génératifs | Master |
+        | Apprentissage automatique | Master |
+        | Programmation orientée objet | Master |
+        | Optimisation évolutionnaire | Master |
+        | Linux & Python | Master |
+
+        J'ai également encadré **deux stagiaires de recherche** (2024, 2025).
     design:
       spacing:
         padding: ['2rem', 0, '2rem', 0]
@@ -50,7 +60,7 @@ sections:
     id: contact
     content:
       title: Contact
-      email: ''
+      email: 'estelle.chigot@gmail.com'
       autolink: true
     design:
       spacing:

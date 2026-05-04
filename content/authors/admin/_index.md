@@ -1,58 +1,55 @@
 ---
-# Display name
 title: Estelle Chigot
 
-# Is this the primary user of the site?
 superuser: true
 
-# Role/position/tagline
-role: Chercheuse
+role: Doctorante en Vision par Ordinateur
 
-# Organizations/Affiliations to show in About widget
 organizations:
-  - name: ''
-    url: ''
+  - name: ISAE-SUPAERO
+    url: 'https://www.isae-supaero.fr'
+  - name: Airbus
+    url: 'https://www.airbus.com'
 
-# Short bio (displayed in user profile at end of posts)
-bio: ''
+bio: Doctorante en vision par ordinateur spécialisée dans l'adaptation de domaine synthétique-vers-réel.
 
-# Interests to show in About widget
 interests:
-  - ''
-  - ''
+  - Vision par ordinateur
+  - Adaptation de domaine
+  - Modèles de diffusion
+  - Données synthétiques
+  - Optimisation évolutionnaire
 
-# Education to show in About widget
 education:
   courses:
-    - course: ''
-      institution: ''
-      year:
+    - course: Doctorat en Vision par Ordinateur
+      institution: ISAE-SUPAERO (CIFRE Airbus)
+      year: 2026
+    - course: Diplôme d'ingénieur (Master)
+      institution: ENSEEIHT — Informatique pour le Multimédia
+      year: 2022
+    - course: DUT Informatique
+      institution: Université de Bordeaux
+      year: 2019
 
-# Social/Academic Networking
 social:
   - icon: envelope
     icon_pack: fas
-    link: '#contact'
-  - icon: google-scholar
-    icon_pack: ai
-    link: ''
+    link: 'mailto:estelle.chigot@gmail.com'
   - icon: github
     icon_pack: fab
     link: 'https://github.com/echigot'
   - icon: linkedin
     icon_pack: fab
-    link: ''
-  - icon: orcid
+    link: 'https://www.linkedin.com/in/estelle-chigot'
+  - icon: google-scholar
     icon_pack: ai
-    link: ''
+    link: 'https://scholar.google.com/citations?user=Estelle+Chigot'
 
-# Enter email to display Gravatar (if Gravatar account exists)
-email: ''
-
-# Highlight the author in author lists? (true/false)
+email: 'estelle.chigot@gmail.com'
 highlight_name: true
 ---
 
-Bienvenue sur mon site. Je suis chercheuse en …
+Je suis doctorante industrielle en vision par ordinateur à l'**ISAE-SUPAERO** en collaboration avec **Airbus** (CIFRE, 2023–2026). Mes travaux portent sur l'**adaptation de domaine synthétique-vers-réel** pour la reconnaissance robuste d'objets, avec une application à la détection de piste d'atterrissage dans des conditions météorologiques dégradées.
 
-*À compléter : décrivez votre domaine de recherche, vos affiliations et vos projets en cours.*
+J'ai notamment développé une méthode de transfert de style basée sur des **modèles de diffusion** et proposé un cadre d'optimisation par **algorithme évolutionnaire** pour ces pipelines de transfert de style.
