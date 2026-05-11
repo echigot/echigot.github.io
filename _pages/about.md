@@ -5,7 +5,7 @@ permalink: /
 subtitle: >
   PhD Candidate in Computer Vision at
   <a href="https://www.isae-supaero.fr" target="_blank">ISAE-SUPAERO</a> &amp;
-  <a href="https://www.airbus.com" target="_blank">Airbus</a>
+  <a href="https://www.airbus.com" target="_blank">Airbus</a>.
 
 profile:
   align: right
