@@ -23,7 +23,7 @@ latest_posts:
   enabled: false
 ---
 
-I am an industrial PhD candidate in computer vision at **ISAE-SUPAERO** in collaboration with **Airbus**, supervised by [Thomas Oberlin](https://pagespro.isae-supaero.fr/thomas-oberlin/) (ISAE-Supaero), [Dennis G. Wilson](https://d9w.github.io/) (ISAE-Supaero), Meriem Ghrib (Airbus), and Manon Huguenin (Airbus).
+I am a PhD candidate in computer vision at **ISAE-SUPAERO** in collaboration with **Airbus**, supervised by [Thomas Oberlin](https://pagespro.isae-supaero.fr/thomas-oberlin/) (ISAE-Supaero), [Dennis G. Wilson](https://d9w.github.io/) (ISAE-Supaero), Meriem Ghrib (Airbus), and Manon Huguenin (Airbus).
 
 My research focuses on **synthetic-to-real domain adaptation** for robust object recognition, applied to runway detection under adverse weather conditions. I develop methods based on **diffusion models** for style transfer and **evolutionary algorithms** for style transfer pipeline optimisation.
 
