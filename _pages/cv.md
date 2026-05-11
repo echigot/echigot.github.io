@@ -12,4 +12,4 @@ nav_order: 5
   </a>
 </div>
 
-<embed src="/assets/pdf/CV_Estelle_Chigot.pdf" type="application/pdf" width="100%" height="900px" />
+<embed src="/assets/pdf/CV_Estelle_Chigot_no-email.pdf" type="application/pdf" width="100%" height="900px" />
