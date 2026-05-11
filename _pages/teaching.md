@@ -15,5 +15,5 @@ nav_order: 4
 | Bash & Python (15h) | MSc 2 |
 | Object-Oriented Programming (48h) | BSc 3 |
 
-<br>
-I also co-supervised **two research interns** (2024, 2025).
+
+<br>I also co-supervised **two research interns** (2024, 2025).
